@@ -18,8 +18,9 @@ android {
     compileSdkVersion 33
     ndkVersion '27.0.12077973'
     defaultConfig {
-        applicationId "com.android.example.vulkan.tutorials.six"
+        applicationId "priv.rsc.abreakout"
         minSdkVersion 26
+        //noinspection ExpiredTargetSdkVersion
         targetSdkVersion 30
         versionCode 272
         versionName "1.1.0"
